@@ -45,3 +45,4 @@ class TestLogin:
         # Проверяем по URL, не требуя элементы
         wait.until(EC.url_contains("https://stellarburgers.nomoreparties.site/"))
         assert "https://stellarburgers.nomoreparties.site/" in driver.current_url
+
